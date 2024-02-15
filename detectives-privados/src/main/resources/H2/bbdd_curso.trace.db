@@ -1,0 +1,4 @@
+2024-02-15 16:26:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna "DESCRIPCION VARCHAR(255)": "'&lt;form action&#x3d;&quot;sm&quot;&gt;&lt;input type&#x3d;&quot;text&quot; name&#x3d;&quot;username&quot;&gt;&lt;input type&#x... (268)"
+Value too long for column "DESCRIPCION VARCHAR(255)": "'&lt;form action&#x3d;&quot;sm&quot;&gt;&lt;input type&#x3d;&quot;text&quot; name&#x3d;&quot;username&quot;&gt;&lt;input type&#x... (268)"; SQL statement:
+INSERT INTO informes (titulo, descripcion, contenido, color, userId) VALUES (?, ?, ?, ?, ?) [22001-200]
